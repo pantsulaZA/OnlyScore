@@ -16,6 +16,8 @@
 		575187F125B0DC5D00224EC9 /* scoreData.json in Resources */ = {isa = PBXBuildFile; fileRef = 575187F025B0DC5D00224EC9 /* scoreData.json */; };
 		575187F625B0DCC300224EC9 /* CreditReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575187F525B0DCC300224EC9 /* CreditReportTests.swift */; };
 		575187FE25B0DD2100224EC9 /* CreditReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575187FD25B0DD2100224EC9 /* CreditReport.swift */; };
+		5751880F25B0EB7500224EC9 /* EndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751880E25B0EB7500224EC9 /* EndpointTests.swift */; };
+		5751881425B0EBE400224EC9 /* CreditReportEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751881325B0EBE400224EC9 /* CreditReportEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		575187F025B0DC5D00224EC9 /* scoreData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scoreData.json; sourceTree = "<group>"; };
 		575187F525B0DCC300224EC9 /* CreditReportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditReportTests.swift; sourceTree = "<group>"; };
 		575187FD25B0DD2100224EC9 /* CreditReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditReport.swift; sourceTree = "<group>"; };
+		5751880E25B0EB7500224EC9 /* EndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndpointTests.swift; sourceTree = "<group>"; };
+		5751881325B0EBE400224EC9 /* CreditReportEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditReportEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,7 @@
 				574753BC25B0D6F0001C77F2 /* LaunchScreen.storyboard */,
 				574753BF25B0D6F0001C77F2 /* Info.plist */,
 				575187FD25B0DD2100224EC9 /* CreditReport.swift */,
+				5751881325B0EBE400224EC9 /* CreditReportEndpoint.swift */,
 			);
 			path = OnlyScore;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 				574753CA25B0D6F0001C77F2 /* Info.plist */,
 				575187F025B0DC5D00224EC9 /* scoreData.json */,
 				575187F525B0DCC300224EC9 /* CreditReportTests.swift */,
+				5751880E25B0EB7500224EC9 /* EndpointTests.swift */,
 			);
 			path = OnlyScoreTests;
 			sourceTree = "<group>";
@@ -263,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				575187FE25B0DD2100224EC9 /* CreditReport.swift in Sources */,
+				5751881425B0EBE400224EC9 /* CreditReportEndpoint.swift in Sources */,
 				574753B625B0D6EC001C77F2 /* ViewController.swift in Sources */,
 				574753B225B0D6EC001C77F2 /* AppDelegate.swift in Sources */,
 			);
@@ -272,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5751880F25B0EB7500224EC9 /* EndpointTests.swift in Sources */,
 				575187F625B0DCC300224EC9 /* CreditReportTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
