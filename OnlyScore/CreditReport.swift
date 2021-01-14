@@ -1,10 +1,10 @@
 import Foundation
 
-struct ScoreData: Decodable {
+struct CreditReport: Decodable {
     var score: Int {
         creditReportInfo.score
     }
-    let creditReportInfo: CreditReportInfo
+    private let creditReportInfo: CreditReportInfo
 }
 
 struct CreditReportInfo: Decodable {
