@@ -1,10 +1,3 @@
-//
-//  OnlyScoreUITests.swift
-//  OnlyScoreUITests
-//
-//  Created by Jannie Theron on 2021/01/14.
-//
-
 import XCTest
 
 class OnlyScoreUITests: XCTestCase {
