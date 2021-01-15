@@ -30,6 +30,9 @@
                             <constraint firstItem="8c3-XG-Yn5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aN2-OX-CBv"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="creditScore" destination="8c3-XG-Yn5" id="H4v-9N-1Oo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

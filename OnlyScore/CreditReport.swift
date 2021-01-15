@@ -4,7 +4,7 @@ struct CreditReport: Decodable {
     var score: Int {
         creditReportInfo.score
     }
-    private let creditReportInfo: CreditReportInfo
+    let creditReportInfo: CreditReportInfo
 }
 
 struct CreditReportInfo: Decodable {
