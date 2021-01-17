@@ -23,6 +23,7 @@
 		5751882925B1A2A500224EC9 /* ReportViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751882825B1A2A500224EC9 /* ReportViewModelTests.swift */; };
 		5751882E25B1A2F000224EC9 /* ReportViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751882D25B1A2F000224EC9 /* ReportViewModel.swift */; };
 		5751883325B1AFA300224EC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751883225B1AFA300224EC9 /* SceneDelegate.swift */; };
+		5751883825B4F3ED00224EC9 /* DonutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5751883725B4F3ED00224EC9 /* DonutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		5751882825B1A2A500224EC9 /* ReportViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewModelTests.swift; sourceTree = "<group>"; };
 		5751882D25B1A2F000224EC9 /* ReportViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewModel.swift; sourceTree = "<group>"; };
 		5751883225B1AFA300224EC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5751883725B4F3ED00224EC9 /* DonutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,17 +117,12 @@
 		574753B025B0D6EC001C77F2 /* OnlyScore */ = {
 			isa = PBXGroup;
 			children = (
+				5751884625B4F75C00224EC9 /* Networking */,
+				5751883C25B4F70E00224EC9 /* Report */,
 				574753B125B0D6EC001C77F2 /* AppDelegate.swift */,
 				5751883225B1AFA300224EC9 /* SceneDelegate.swift */,
-				574753B525B0D6EC001C77F2 /* ViewController.swift */,
-				574753B725B0D6EC001C77F2 /* Main.storyboard */,
-				574753BA25B0D6F0001C77F2 /* Assets.xcassets */,
 				574753BC25B0D6F0001C77F2 /* LaunchScreen.storyboard */,
 				574753BF25B0D6F0001C77F2 /* Info.plist */,
-				575187FD25B0DD2100224EC9 /* CreditReport.swift */,
-				5751881325B0EBE400224EC9 /* CreditReportEndpoint.swift */,
-				5751882025B19B6500224EC9 /* NetworkClient.swift */,
-				5751882D25B1A2F000224EC9 /* ReportViewModel.swift */,
 			);
 			path = OnlyScore;
 			sourceTree = "<group>";
@@ -150,6 +147,28 @@
 				574753D525B0D6F0001C77F2 /* Info.plist */,
 			);
 			path = OnlyScoreUITests;
+			sourceTree = "<group>";
+		};
+		5751883C25B4F70E00224EC9 /* Report */ = {
+			isa = PBXGroup;
+			children = (
+				574753B525B0D6EC001C77F2 /* ViewController.swift */,
+				5751882D25B1A2F000224EC9 /* ReportViewModel.swift */,
+				5751883725B4F3ED00224EC9 /* DonutView.swift */,
+				575187FD25B0DD2100224EC9 /* CreditReport.swift */,
+				574753BA25B0D6F0001C77F2 /* Assets.xcassets */,
+				574753B725B0D6EC001C77F2 /* Main.storyboard */,
+			);
+			path = Report;
+			sourceTree = "<group>";
+		};
+		5751884625B4F75C00224EC9 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5751882025B19B6500224EC9 /* NetworkClient.swift */,
+				5751881325B0EBE400224EC9 /* CreditReportEndpoint.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +309,7 @@
 				5751881425B0EBE400224EC9 /* CreditReportEndpoint.swift in Sources */,
 				574753B625B0D6EC001C77F2 /* ViewController.swift in Sources */,
 				574753B225B0D6EC001C77F2 /* AppDelegate.swift in Sources */,
+				5751883825B4F3ED00224EC9 /* DonutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

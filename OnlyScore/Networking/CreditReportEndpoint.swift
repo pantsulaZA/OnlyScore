@@ -2,6 +2,7 @@ import Foundation
 
 enum Endpoint {
     case report
+    //more endpoints can be added here
     
     var url: URL {
         switch self {

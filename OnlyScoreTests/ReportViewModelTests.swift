@@ -3,7 +3,7 @@ import XCTest
 
 class ReportViewModelTests: XCTestCase {
     
-    func testCreateWithData() {
+    func testLoadWithData() {
         let report = CreditReport(creditReportInfo: CreditReportInfo(score: 777))
         let mockClient = TestableNetworkClient(response: .success(report))
         let exp = expectation(description: "Network client getting reponse")

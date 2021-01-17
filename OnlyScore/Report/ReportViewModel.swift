@@ -15,7 +15,8 @@ struct ReportViewModel {
         self.client = client ?? NetworkClient()
     }
     
-    func load(completion: @escaping (ReportViewModel) -> Void) {
+    mutating func load(completion: @escaping (ReportViewModel) -> Void) {
+        state = .loading
         var newData = self
         client.getReport { result in
             switch result {
