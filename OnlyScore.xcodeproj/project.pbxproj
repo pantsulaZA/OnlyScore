@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5705F5E325B70C1C008E3FBB /* UICircularProgressRing in Frameworks */ = {isa = PBXBuildFile; productRef = 5705F5E225B70C1C008E3FBB /* UICircularProgressRing */; };
 		574753B225B0D6EC001C77F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574753B125B0D6EC001C77F2 /* AppDelegate.swift */; };
 		574753B625B0D6EC001C77F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574753B525B0D6EC001C77F2 /* ViewController.swift */; };
 		574753B925B0D6EC001C77F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574753B725B0D6EC001C77F2 /* Main.storyboard */; };
@@ -74,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5705F5E325B70C1C008E3FBB /* UICircularProgressRing in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +189,9 @@
 			dependencies = (
 			);
 			name = OnlyScore;
+			packageProductDependencies = (
+				5705F5E225B70C1C008E3FBB /* UICircularProgressRing */,
+			);
 			productName = OnlyScore;
 			productReference = 574753AE25B0D6EC001C77F2 /* OnlyScore.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +263,9 @@
 				Base,
 			);
 			mainGroup = 574753A525B0D6EC001C77F2;
+			packageReferences = (
+				5705F5E125B70C1C008E3FBB /* XCRemoteSwiftPackageReference "UICircularProgressRing" */,
+			);
 			productRefGroup = 574753AF25B0D6EC001C77F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -645,6 +653,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5705F5E125B70C1C008E3FBB /* XCRemoteSwiftPackageReference "UICircularProgressRing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/luispadron/UICircularProgressRing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5705F5E225B70C1C008E3FBB /* UICircularProgressRing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5705F5E125B70C1C008E3FBB /* XCRemoteSwiftPackageReference "UICircularProgressRing" */;
+			productName = UICircularProgressRing;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 574753A625B0D6EC001C77F2 /* Project object */;
 }
